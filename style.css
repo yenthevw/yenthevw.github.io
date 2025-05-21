@@ -3,3 +3,8 @@ body {
     margin: 0 auto;
     background-color: pink;
 }
+
+#logo {
+	font-size: 500;
+	color: crimson;
+}
