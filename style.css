@@ -1,3 +1,45 @@
+/*
+Website: 90 viewport width, gecentreerd (!)
+
+Relatieve meeteenheden: vw / vh of %
+Absolute meeteenheden: rem (!) geen pixels!
+
+LETTERTYPES:
+
+chill script regular: 
+font-family: "chill-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+chaloops regular:
+font-family: "chaloops", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+chaloops bold:
+font-family: "chaloops", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+new order regular:
+font-family: "new-order", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+new order medium:
+font-family: "new-order", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+new order bold:
+font-family: "new-order", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+*/
+
+/* Schrijf je CSS hieronder */
+
 body {
     width: 90vw;
     margin: 0 auto;
@@ -136,4 +178,28 @@ section{
 .socials img{
 	width: 3rem;
 	margin-left: 11.5rem;
+}
+
+@media screen and (min-width: 768px) {
+body {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.navigation {
+	width: 20%;
+	margin-top: 2%;
+	float: left;
+}
+
+.navigation a{
+	margin-left: 2rem;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5rem;
+	font-family: "chaloops", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+	
 }
