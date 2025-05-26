@@ -36,6 +36,9 @@ font-family: "new-order", sans-serif;
 font-weight: 700;
 font-style: normal;
 
+background-image: url(../images/background.png);
+	background-size: cover;
+
 */
 
 /* Schrijf je CSS hieronder */
@@ -43,8 +46,7 @@ font-style: normal;
 body {
     width: 90vw;
     margin: 0 auto;
-	background-image: url(../images/background.png);
-	background-size: cover;
+	
 }
 
 section{
