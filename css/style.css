@@ -1,0 +1,607 @@
+/*
+Website: 90 viewport width, gecentreerd (!)
+
+Relatieve meeteenheden: vw / vh of %
+Absolute meeteenheden: rem (!) geen pixels!
+
+LETTERTYPES:
+
+chill script regular: 
+font-family: "chill-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+chaloops regular:
+font-family: "chaloops", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+chaloops bold:
+font-family: "chaloops", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+new order regular:
+font-family: "new-order", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+new order medium:
+font-family: "new-order", sans-serif;
+font-weight: 500;
+font-style: normal;
+
+new order bold:
+font-family: "new-order", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+*/
+
+/* Schrijf je CSS hieronder */
+
+body {
+    width: 100vw;
+    margin: 0 auto;
+	background-image: url(../images/background_about.png);
+	background-size: cover;
+}
+section{
+	width: 90vw;
+	margin-left: 2.5rem;
+}
+header{
+	margin-top: 0rem;
+	margin-left: 2.5rem;
+}
+#name{
+	width: 82vw;
+	margin-top: 2rem;
+	float: left;
+}
+#name p{
+	color: black;
+	font-size: 3rem;
+	font-family: "chill-script", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.navigation {
+	width: 5vw;
+	float: left;
+	margin-top: 1rem;
+}
+.navigation a {
+    display: none;
+}
+#hamburger {
+    width: 10vw;
+    margin-top: 1.5vh;
+}
+#hamburger img {
+    width: 7vw;
+}
+#avatar{
+	width: 90vw;
+}
+#avatar img{
+	width: 60vw;
+	margin-left: 8.5rem;
+}
+#portfolio{
+	width: 90vw;
+}
+#portfolio h1{
+	margin-top: -20rem;
+	margin-left: 3rem;
+	margin-bottom: 15rem;
+	color: black;
+	font-size: 7rem;
+	font-family: "chill-script", sans-serif;
+	font-weight: 400;
+	font-style: normal
+}
+#books_avatar{
+	width: 90vw;
+}
+#books_avatar img{
+	width: 60vw;
+	margin-left: 8.5rem;
+}
+#hero_text{
+	width: 80vw;
+	float: left;
+	margin-left: 2rem;
+	line-height: 2rem;
+}
+#hero_text p{
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+#titel{
+	width: 90vw;
+	float: left;
+	margin-left: 18rem;
+	margin-bottom: 3rem;
+	margin-top: 4rem;
+}
+#titel h1{
+	font-family: "chill-script", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2rem;
+}
+.routine{
+	width: 90vw;
+	float: left;
+}
+.routine img{
+	width: 65vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #AA8963;
+}
+.routine p{
+	width: 65vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.books{
+	width: 90vw;
+	float: left;
+}
+.books img{
+	width: 90vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #86C296;
+}
+.books p{
+	width: 90vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.coffee{
+	width: 90vw;
+	float: left;
+}
+.coffee img{
+	width: 90vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #E8C6B4;
+}
+.coffee p{
+	width: 90vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.breaks{
+	width: 90vw;
+	float: left;
+	margin-left: 12.5rem;
+}
+.breaks img{
+	width: 65vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #5780A7;
+}
+.breaks p{
+	width: 65vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.design{
+	width: 90vw;
+	float: left;
+}
+.design img{
+	width: 90vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #AA8963;
+}
+.design p{
+	width: 90vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.morning{
+	width: 90vw;
+	float: left;
+}
+.morning img{
+	width: 90vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #86C296;
+}
+.morning p{
+	width: 90vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.lands{
+	width: 90vw;
+	float: left;
+}
+.lands img{
+	width: 65vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #E8C6B4;
+}
+.lands p{
+	width: 65vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.series{
+	width: 90vw;
+	float: left;
+}
+.series img{
+	width: 90vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #5780A7;
+}
+.series p{
+	width: 90vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.water{
+	width: 90vw;
+	float: left;
+}
+.water img{
+	width: 90vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #AA8963;
+}
+.water p{
+	width: 90vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+.money{
+	width: 90vw;
+	float: left;
+	margin-left: 12.5rem;
+}
+.money img{
+	width: 65vw;
+	float: left;
+	border-style: solid;
+	border-width: 0.4rem;
+	border-color: #86C296;
+}
+.money p{
+	width: 65vw;
+	float: left;
+	margin: 2rem 0rem;
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+#explanation{
+	width: 80vw;
+	float: left;
+	margin: 1rem 0rem 1rem 2.5rem;
+	line-height: 2rem;
+}
+#explanation p{
+	font-size: 1.5rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+footer{
+	margin-left: 2rem;
+}
+.name_footer{
+	width: 45%;
+	margin-top: 4%;
+	margin-left: 15rem;
+	float: left;
+}
+.name_footer p{
+	color: black;
+	font-size: 3rem;
+	font-family: "chill-script", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.navigation_footer{
+	width: 90vw;
+	float: left;
+	margin-left: -4rem;
+	margin-top: 4rem;
+}
+.navigation_footer a{
+	margin-left: 10rem;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-size: 1.5rem;
+	font-family: "chaloops", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.socials{
+	width: 90vw;
+	float: left;
+	margin-bottom: 4rem;
+	margin-left: -5rem;
+	margin-top: 4rem;
+}
+.socials img{
+	width: 3rem;
+	margin-left: 11.5rem;
+}
+
+@media screen and (min-width: 768px) {
+#name{
+	width: 73vw;
+	margin-top: 0rem;
+	margin-left: 3rem;
+	float: left;
+}
+#hamburger{
+	display: none;
+}
+.navigation {
+	display: flex;
+	width: 20vw;
+	margin-top: 0rem;
+	float: left;
+}
+.navigation a{
+	display: inline-block;
+	margin-left: 3rem;
+	text-decoration: none;
+	color: black;
+	font-size: 2rem;
+	font-family: "chaloops", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+#avatar img{
+	width: 30vw;
+	margin-left: 50rem;
+}	
+#portfolio h1{
+	margin-top: -25rem;
+	margin-left: 44rem;
+	font-size: 10rem;
+}
+footer{
+	margin-left: 52rem;
+	margin-bottom: 4rem;
+}
+.navigation_footer{
+	margin-left: -43rem;
+}
+.navigation_footer a{
+	margin-left: 30rem;
+}
+.socials{
+	margin-left: -43.8rem;
+}
+.socials img{
+	margin-left: 31.3rem;
+}
+#books_avatar{
+	width: 30vw;
+	float: left;
+	margin-left: 5rem;
+	margin-top: 4rem;
+}
+#books_avatar img{
+	width: 20vw;
+	margin-left: 8.5rem;
+}
+#hero_text{
+	width: 50vw;
+	float: left;
+	margin-top: 17rem;
+	margin-left: 5rem;
+	line-height: 3rem;
+}
+#hero_text p{
+	font-size: 2rem;
+	font-family: "new-order", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+}
+#titel{
+	width: 90vw;
+	float: left;
+	margin-left: 67.5rem;
+	margin-bottom: 3rem;
+	margin-top: 4rem;
+}
+#titel h1{
+	font-family: "chill-script", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2rem;
+}
+.routine{
+	width: 40%;
+	float: left;
+	margin-left: 6%;
+}
+.routine img{
+	width: 40vw;
+	float: left;
+}
+.books{
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+}
+.books img{
+	width: 40vw;
+	float: left;
+}
+.coffee{
+	width: 40%;
+	float: left;
+	margin-left: 6%;
+}
+.coffee img{
+	width: 40vw;
+	float: left;
+}
+.breaks{
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+}
+.breaks img{
+	width: 40vw;
+	float: left;
+}
+.design{
+	width: 40%;
+	float: left;
+	margin-left: 6%;
+}
+.design img{
+	width: 40vw;
+	float: left;
+}
+.morning{
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+}
+.morning img{
+	width: 40vw;
+	float: left;
+}
+.lands{
+	width: 40%;
+	float: left;
+	margin-left: 6%;
+}
+.lands img{
+	width: 40vw;
+	float: left;
+}
+.series{
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+}
+.series img{
+	width: 40vw;
+	float: left;
+}
+.water{
+	width: 40%;
+	float: left;
+	margin-left: 6%;
+}
+.water img{
+	width: 40vw;
+	float: left;
+}
+.money{
+	width: 40%;
+	float: left;
+	margin-left: 10%;
+}
+.money img{
+	width: 40vw;
+	float: left;
+}
+#datasets p{
+	width: 50%;
+	float: left;
+}
+#explanation{
+	width: 80vw;
+	float: left;
+	margin: 2rem 0rem 2rem 8rem;
+	line-height: 2rem;
+}
+#exampletitel{
+	width: 90vw;
+	float: left;
+	margin-left: 67.5rem;
+	margin-bottom: 3rem;
+	margin-top: 4rem;
+}
+#titel h1{
+	font-family: "chill-script", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2rem;
+}
+}
